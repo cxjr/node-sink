@@ -1,0 +1,16 @@
+{
+  "name": "node-sink",
+  "version": "1.0.0",
+  "description": "Service flow sink application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Idan Tsadok",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
