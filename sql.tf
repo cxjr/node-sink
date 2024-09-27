@@ -67,6 +67,8 @@ resource "azurerm_mysql_server" "example" {
     git_org              = "bridgecrewio"
     git_repo             = "terragoat"
     yor_trace            = "1ac18c16-09a4-41c9-9a66-6f514050178e"
+    git_administrator_login   = "terragoat"
+    git_administrator_login_password = "password911!"
   }
 }
 
